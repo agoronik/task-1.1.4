@@ -43,6 +43,8 @@ public class UserServiceTest {
 
             User user = userService.getAllUsers().get(0);
 
+            System.out.println(user.toString());
+
             if (!testName.equals(user.getName())
                     || !testLastName.equals(user.getLastName())
                     || testAge != user.getAge()
