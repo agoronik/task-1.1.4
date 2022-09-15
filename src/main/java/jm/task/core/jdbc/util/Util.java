@@ -16,7 +16,7 @@ public class Util {
 
     public static final String URL = "jdbc:mysql://localhost:3306/task113";
     public static final String DB_USER = "admin";
-    public static final String DB_PASSW = "T8!ad85Bp";
+    public static final String DB_PASSW = "******";
     public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     public static final String DIALECT = "org.hibernate.dialect.MySQL8Dialect";
     public static final String SHOW_SQL = "true";
